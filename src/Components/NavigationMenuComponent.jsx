@@ -7,7 +7,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu"
+} from "@/Components/ui/navigation-menu"
 
 const NavigationMenuComponent = ({ items }) => {
   return (

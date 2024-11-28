@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Button } from "@/components/ui/button"
+import { Button } from "@/Components/ui/button"
 import NavigationMenuComponent from './NavigationMenuComponent'
 import { Logo } from '@/icons/Logo'
 import UserProfileDropdown from './UserProfleDropdown'

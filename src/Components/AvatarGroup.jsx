@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
+import { Avatar, AvatarImage, AvatarFallback } from "@/Components/ui/avatar"
 
 const AvatarGroup = ({ avatars, max = 6 }) => {
   const visibleAvatars = avatars.slice(0, max)
