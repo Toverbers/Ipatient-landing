@@ -2,7 +2,7 @@ import AppShowcase from '@/Components/AppShowcase'
 import Features from '@/Components/Features'
 import Footer from '@/Components/Footer'
 import Hero from '@/Components/Hero'
-import Navbar from '@/Components/NavBar'
+import NavBar from '@/Components/NavBar'
 import ScrollingBanner from '@/Components/ScrollingBanner'
 import Stats from '@/Components/Stats'
 import Testimonials from '@/Components/Testimonials'
@@ -13,7 +13,7 @@ import WhyChooseUs from '@/Components/WhyChooseUs'
 function Homepage() {
   return (
     <div className="min-h-screen">
-      <Navbar />
+      <NavBar />
       <main className="w-full px-4 sm:px-6 lg:px-8 mt-6">
         <Hero />
         <Features />
